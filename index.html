@@ -1,31 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>26th lesson home task</title>
-  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700" rel="stylesheet"> -->
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.min.css">
 </head>
 <body>
-  <div>
-    <div>
-      <div>
-        <h1>Press page</h1>
-        <p>Our news and media information</p>
-        <a href="#">Media kit</a>
+  <div class="container">
+    <div class="press-page-container">
+      <div class="press-page-sub-container">
+        <h1 class="page-main-title">Press page</h1>
+        <p class="press-page-desc">Our news and media information</p>
+        <a href="#" class="media-kit-link">Media kit</a>
       </div>
     </div>
-    <div>
-      <div>
-        <nav>
+    <div class="article-side-container">
+      <div class="aricle-side-sub-container">
+        <div class="article-header">
           <h2>Articles</h2>
-          <button><span>menyu</span><img src="./img/menu.svg" alt="menyu" width="24" height="24"></button>
-        </nav>
-        <ol>
-          <li><a href="#">2017</a></li>
+          <button type="button" class="nav-control-button"><span class="visually-hidden">menyu</span><img src="./img/menu.svg" alt="menyu" width="24" height="24"></button>
+        </div>
+        <ol class="year-list">
+          <li><a href="#" class="active">2017</a></li>
           <li><a href="#">2016</a></li>
           <li><a href="#">2015</a></li>
           <li><a href="#">2014</a></li>
@@ -34,40 +32,40 @@
           <li><a href="#">2011</a></li>
           <li><a href="#">2010</a></li>
         </ol>
-        <ol>
+        <ol class="events-of-year-list">
           <li>
-            <p>Top 5 fast growing startups this year</p>
-            <div>
-              <span>20</span>
-              <span>jan 2017</span>
+            <p class="event-desc first-event">Top 5 fast growing startups this year</p>
+            <div class="event-date-container">
+              <span class="event-day">20</span>
+              <span class="event-month-year">jan 2017</span>
             </div>
           </li>
           <li>
-            <p>Project Arc raises $90 billion from Stack industries</p>
-            <div>
-              <span>10</span>
-              <span>jan 2017</span>
+            <p class="event-desc second-event">Project Arc raises $90 billion from Stack industries</p>
+            <div class="event-date-container">
+              <span class="event-day">10</span>
+              <span class="event-month-year">jan 2017</span>
             </div>
           </li>
           <li>
-            <p>Arc joins the big league, now taking out its opponents</p>
-            <div>
-              <span>06</span>
-              <span>jan 2017</span>
+            <p class="event-desc third-event">Arc joins the big league, now taking out its opponents</p>
+            <div class="event-date-container">
+              <span class="event-day">06</span>
+              <span class="event-month-year">jan 2017</span>
             </div>
           </li>
           <li>
-            <p>Arc reveals the first AI prototype</p>
-            <div>
-              <span>04</span>
-              <span>jan 2017</span>
+            <p class="event-desc fourth-event">Arc reveals the first AI prototype</p>
+            <div class="event-date-container">
+              <span class="event-day">04</span>
+              <span class="event-month-year">jan 2017</span>
             </div>
           </li>
           <li>
-            <p>Its time for a new era. Arc leads this time</p>
-            <div>
-              <span>02</span>
-              <span>jan 2017</span>
+            <p class="event-desc fifth-event">Its time for a new era. Arc leads this time</p>
+            <div class="event-date-container">
+              <span class="event-day">02</span>
+              <span class="event-month-year">jan 2017</span>
             </div>
           </li>
         </ol>
